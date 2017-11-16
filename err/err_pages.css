@@ -1,0 +1,11 @@
+#watermark{
+	text-align: center;
+	color: #ddd;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	font-size: 15em;
+	font-weight: bold;
+	font-family: Futura, Helvetica, serif;
+	z-index: -1;
+}

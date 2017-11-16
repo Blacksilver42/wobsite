@@ -1,0 +1,54 @@
+<!--
+ 401 | status code
+ Unauthorized | Short name of the error
+ Youre not allowed here... | Long descption of the error
+-->
+
+<!doctype html>
+<head>
+ <title>Error 401 </title>
+
+ <style>
+  body {
+   margin: 0px;
+  }
+ </style>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="/git/website-scripts/wittyhint.js"></script>
+ <link rel="stylesheet" type="text/css" href="/hint.css" />
+ <link rel="stylesheet" type="text/css" href="/err/err_pages.css" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div style="background:#e8bf28; padding: 5px; text-align: center;">
+ <h1>Unauthorized :(</h1>
+</div>
+<br>
+<div style="padding: 8px; text-align: center;">
+ <p>
+  You're not allowed here...
+ </p>
+
+ <p>
+  You can <button onclick="history.back();">Go back</button>, jump to the <a href="/">Site root</a>, or the <a href="/kcp">KCP root</a>.
+ </p>
+</div>
+
+<br>
+
+<div id="hint-wrap">
+ <div id="hint-wrap2" style="max-width: 90%;">
+  <span id="witty-hint" title="Press `h` for a new one." style="size: 8px;">
+   Generating witty loading hints...
+  </span>
+ </div>
+</div>
+
+
+<div id="watermark">
+401
+</div>
+
+</body>

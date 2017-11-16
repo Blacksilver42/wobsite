@@ -1,0 +1,67 @@
+/* ==============================================
+ * GENERICS
+ */
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* ==============================================
+ * #back
+ */
+
+#back {
+	width: 0;
+	height: 0;
+	border-top: 50px solid #e8bf28;
+	border-right: 50px solid transparent;
+	position: absolute;
+	z-index: 5;
+}
+
+
+/* ==============================================
+ * #main
+ */
+
+#main .section {
+	border-left: 2px solid #bada55;
+	background: white;
+	margin: 0.5em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	padding-top: 0px;
+}
+
+#main .section h3 {
+	margin-top: 0px;
+}
+
+#main table tr:nth-child(even) {
+	background: lightgray;
+}
+
+
+#main table tr td, #main table tr th {
+	border-right: 1px solid grey;
+	padding-right: 10px;
+}
+
+#main table tr th+td {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#main tr *:last-child {
+	border-right: none;
+}

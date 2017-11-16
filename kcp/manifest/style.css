@@ -1,0 +1,19 @@
+#template {
+	display: none;
+}
+
+.entry {
+	border: 1px solid blue;
+	border-radius: 10px;
+	background: lightgray;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+.entry .title {
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+}

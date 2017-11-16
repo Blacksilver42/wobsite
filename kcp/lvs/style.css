@@ -1,0 +1,37 @@
+#lv {
+	border-collapse: collapse;
+}
+	
+#lv tr td {
+	padding: 5px;
+	border-left: 1px solid gray;
+}
+
+#lv tr th {
+	border-left: 1px solid gray;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+#lv tr td:nth-child(1), #lv tr th:nth-child(1){
+	border-left: none;
+}
+
+#header {
+	font-weight: bold;
+}
+
+#lv tr {
+}
+
+#lv tr th {
+	/*display: none; */
+}
+
+#lv tr td:nth-child(1) {
+	font-weight: bold;
+}
+
+#lv tr:nth-child(2n+2) {
+	background: lightgray;
+}

@@ -1,0 +1,106 @@
+var lvs;
+var manifest;
+var payloads;
+
+
+
+///////////////////////////////////////////////// JSON GETS
+
+
+
+function get_lvs(){
+	return $.ajax({
+		url		:	"/kcp/json/lifters.json",
+	});
+}
+
+function get_plds(){
+	return $.ajax({
+		url		:	"/kcp/json/payloads.json",
+	}
+}
+
+function get_manf() {
+	return $.ajax({
+		url		:	"/kcp/json/manifest.json",
+	}
+}
+
+
+
+///////////////////////////////////////////////// FUNCTIONS
+
+
+
+function get_entry(id, part){
+	switch(part){
+		case "lv":
+			return $("#"+id+" p.title span.lv");
+		case "p":
+			return $("#"+id+" p.title span.P");
+		case "orbit":
+			return $("#"+id+" p.orbit");
+		case "amt":
+			return $("#"+id+" p.title span.amt")
+	}
+}
+
+function parse_orbit(O){
+	return "<p title=\"Ap: "
+	  + O.ap
+	  + " | Pe: "
+	  + O.pe
+	  + " | inc: "
+	  + O.inc
+	  + "&deg;\">"
+	  + O.name
+	  + "</p>";
+}
+
+function gen_entry(to, obj){
+	var x;
+	
+	x = "<div class=\"entry\"><p><b>"
+	  + lvs[obj.lifter].name
+	  + " + ";
+	
+	if(obj.payload == "?"){
+		x+="N/A"
+	} else {
+		x+=obj.amt
+	  	 + "x"
+		 + payloads[obj.payload].name
+	}
+	
+	x+= "</b>"
+	  + parse_orbit(obj.orbit)
+	  + "</div>"
+
+	$(to).append(x);
+}
+
+
+
+///////////////////////////////////////////////// MAIN
+
+
+
+$(document).ready(function(){
+	$.when(get_lvs(), get_plds(), get_manf()).done(function(_lvs, _plds, _manf){
+		lvs = _lvs;
+		manifest = _manf;
+		payloads = _plds;
+
+		gen_entry("#next", manifest.next);
+
+		for(var E in manifest.future){
+			gen_entry("#future", E);
+		}
+		
+		for(var E in manifest.past){
+			gen_entry("#past", E);
+		}
+
+		
+	});
+});

@@ -1,0 +1,25 @@
+#main ul {
+	padding-left: 0;
+}
+
+#main ul li {
+	margin: 15px;
+	padding: 15px;
+	
+	list-style-type: none;
+	
+	border: 1px solid #e8bf28;
+	border-radius: 5px;
+
+	position: relative;
+}
+
+#main ul li h2 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+#main ul li .license {
+	font-style: italic;
+	float: right;
+}

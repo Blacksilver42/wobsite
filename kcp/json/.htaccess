@@ -1,0 +1,8 @@
+IndexIgnore backup.sh
+
+AddDescription "corp index" corp.json
+AddDescription "misc. info about current state of the game" data.json
+AddDescription "lv index" lifters.json
+AddDescription "upcoming, future, and past launches" manifest.json
+AddDescription "payload index" payloads.json
+AddDescription "Backups" bkup

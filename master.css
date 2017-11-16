@@ -1,0 +1,132 @@
+/* ==============================================
+ * GENERICS
+ */
+
+
+body {
+	/* So #top can go right to the sides
+	 * everything else is in #main which has `margin: 10px`
+	 */
+	margin: 0px;
+	
+
+	/* Just about everything is covered by the h# and p rules below,
+	 * but just in case...
+	 */
+	font-family: Helvetica, sans-serif;
+}
+
+
+#main {
+	padding: 10px;
+}
+
+#top {
+	padding: 10px 0px;
+	margin-bottom: 2em;
+}
+
+#top *:first-child {
+	margin-top: 0;
+}
+
+#top *:last-child {
+	margin-bottom: 0px;
+}
+
+
+h1, h2, h3 {
+	/* On most browsers (chrome) these are all the same font.*/
+	font-family: "Times New Roman", Times, serif;
+}
+
+h4, h5 {
+	/* Georgia is still serif, but not _as_ serif. */
+	font-family: "Georgia", serif;
+	font-weight: bold;
+}
+
+
+p {
+	/* Can't go wrong with these classics */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+table {
+	/* This should be the default. */
+	border-collapse: collapse;
+}
+
+
+a {
+	/* No underline, light blue */
+	text-decoration: none;
+	color: #0275d8;
+}
+
+a:hover {
+	/* Underline, darker blue */
+	text-decoration: underline;
+	color: #01447e;
+}
+
+a:visited {
+	/* darkerer blue */
+	color: darkviolet;
+}
+
+
+/* ==============================================
+ * CLASSES
+ */
+
+
+.type1 {
+	border-left: 5px solid #e8bf28;
+	padding: 5px;
+	padding-top: 0px;
+	padding-left: 10px;
+	margin: 1em;
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.redacted {
+	color: black;
+	background-color: black;
+}
+
+.sys {
+	font-family: "Courier new", Courier, monospace;
+	color: red;
+}
+
+a.ninja {
+	/* override everything,
+	 * and set it to the same
+	 * as the text around it.
+	 */
+	color: inherit;
+}
+
+a.ninja.sys {
+	color: red;
+}
+
+.code {
+	font-family: Courier, monospace;
+	border: 1px solid grey;
+	background: lightgrey;
+	padding: 3px;
+	border-radius: 3px;
+	clear: both;
+	display: -webkit-inline-box;
+	margin: 1px;
+}
+
+.hideme {
+	display: none;
+}

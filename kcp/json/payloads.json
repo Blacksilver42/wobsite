@@ -1,0 +1,20 @@
+[
+	{
+		"name"	:	"Geostar I",
+		"tag"	:	"GOV",
+		"mass"	:	0.5,
+		"cost"	:	3770,
+		"link"	:	"http://kerbalx.com/Blacksilver/Geostar-I"
+	}, {
+		"name"	:	"Echostar-1s",
+		"tag"	:	"SKY",
+		"mass"	:	0.36,
+		"cost"	:	5302
+	}, {
+		"name"	:	"Sabot 1",
+		"tag"	:	"SBI",
+		"mass"	:	2,
+		"cost"	:	23146,
+		"link"	:	"http://drive.google.com/file/d/0B15BBJhJkCp8ckRWWU5oWlJlUkk/view"
+	}
+]

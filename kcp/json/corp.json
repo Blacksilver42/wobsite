@@ -1,0 +1,232 @@
+{
+  "corp": [
+    {
+      "tag": "GOV",
+      "name": "Government",
+      "users": [
+        "icantmakemodels",
+        "theEpicSquared"
+      ],
+      "funds": "Infinity",
+      "color": "#BADA55"
+    },
+    {
+      "tag": "TEC",
+      "name": "18537 Tech",
+      "users": [
+        "53miner53"
+      ],
+      "funds": 327304.0,
+      "color": "#0099FF"
+    },
+    {
+      "tag": "SKY",
+      "name": "SkyTech Aerospace",
+      "users": [
+        "Skylon"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "GLO",
+      "name": "Glopsidian Orbital",
+      "users": [
+        "StupidAndy"
+      ],
+      "funds": 500000.0,
+      "color": "#3CFF32"
+    },
+    {
+      "tag": "KLA",
+      "name": "Kerbal launch alliance",
+      "users": [
+        "Uace24",
+        "Minecrafteez",
+        "Plecy75"
+      ],
+      "funds": 382754.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "SBI",
+      "name": "Sabot Industries",
+      "users": [
+        "Rockets don't make toast"
+      ],
+      "funds": 420831.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "RKA",
+      "name": "Rockomax aerospace",
+      "users": [
+        "Rocket_man1234"
+      ],
+      "funds": 344540.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "TCH",
+      "name": "Tungsten chickens",
+      "users": [
+        "Heavy Metal Chicken"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "TSG",
+      "name": "TSG Aerospace",
+      "users": [
+        "TSG Aerospace"
+      ],
+      "funds": 385354.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "NSP",
+      "name": "Nazi space program",
+      "users": [
+        "Gtrx"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "KCF",
+      "name": "K-C Flight Technologies",
+      "users": [
+        "Qzgy"
+      ],
+      "funds": 500000.0,
+      "color": "#0047AB"
+    },
+    {
+      "tag": "AES",
+      "name": "Andiron's Electrics",
+      "users": [
+        "Andiron"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "CAT",
+      "name": "Coriolis Aerospace Tech",
+      "users": [
+        "DeltaDizzy"
+      ],
+      "funds": 500000.0,
+      "color": "#0000FF"
+    },
+    {
+      "tag": "ZUA",
+      "name": "Zulu Aerospace",
+      "users": [
+        "SquaadZulu"
+      ],
+      "funds": 500000.0,
+      "color": "#800080"
+    },
+    {
+      "tag": "JDR",
+      "name": "Jeb's Ductape Rocketry",
+      "users": [
+        "GTRX"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "STI",
+      "name": "SpaceTek Industries",
+      "users": [
+        "SpaceN00B"
+      ],
+      "funds": 500000.0,
+      "color": "#19FF17"
+    },
+    {
+      "tag": "MLI",
+      "name": "MildlyLivid Industries",
+      "users": [
+        "MildlyLivid"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "RET",
+      "name": "RedPandaz Exploration Technologies",
+      "users": [
+        "RedPandaz"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "SPX",
+      "name": "Super-Polite eXtreme",
+      "users": [
+        "macktruck6666"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "GTI",
+      "name": "G-Tech Industries",
+      "users": [
+        "theguynamedalan",
+        "Gr125w4"
+      ],
+      "funds": 500000.0,
+      "color": "#010101"
+    },
+    {
+      "tag": "PIA",
+      "name": "Pigeon Aerospace",
+      "users": [
+        "SpacePigeon"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "KSA",
+      "name": "Kerbopean Space Agency",
+      "users": [
+        "Sem"
+      ],
+      "funds": 500000.0,
+      "color": "#ffffff"
+    },
+    {
+      "tag": "KSS",
+      "name": "Kerbal Space Systems",
+      "users": [
+        "AngryWanKenobi"
+      ],
+      "funds": 500000.0
+    },
+    {
+      "tag": "BMS",
+      "name": "Black Monolith Scientists",
+      "users": [
+        "Mrcarrot",
+        "Eswabon"
+      ],
+      "funds": 500000.0,
+      "color": "#6824F0"
+    },
+    {
+      "tag": "ADS",
+      "name": "Aerodyne Solutions",
+      "users": [
+        "Dman1791"
+      ],
+      "funds": 416620
+    }
+  ]
+}

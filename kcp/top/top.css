@@ -1,0 +1,62 @@
+#top {
+	padding-bottom: 1em;
+	text-align: center;
+	background: #bada55;
+	padding-top: 5px;
+	position: relative;
+}
+
+#top h1 {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+/***********************************************
+                     #nav
+ ***********************************************/
+
+
+#nav {
+	width: 100%;
+	background: white;
+	border-collapse: collapse;
+	position: relative;
+	top: 20px;
+}
+
+#nav a {
+    display: table-cell;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background: #bada55;
+	font-weight: bold;
+	border-right: 2px solid #dab855;
+	width: 1%;
+}
+
+#nav a.this {
+	color: black;
+	background: white;
+	pointer-events: none;
+	cursor: default;
+}
+
+#nav a:last-child {
+	border-right: none;
+}
+
+#nav a:visited {
+	color: #0275d8;
+}
+
+#nav a:hover {
+	background: #dab855;
+	color: #01447e;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+

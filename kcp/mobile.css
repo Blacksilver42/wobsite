@@ -1,0 +1,26 @@
+p.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 2em
+}
+
+#nav {
+	display: none;
+	width: 100%;
+	column-count: 2;
+	background: #bada55;
+}
+
+#nav a {
+	display: block;
+	width: 100%;
+	position: relative;
+	padding: 10px 0px;
+}
+
+#nav a:nth-child(1n+6) {
+	border-right: none;
+	border-left: 2px solid #dab855
+}

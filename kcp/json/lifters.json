@@ -1,0 +1,86 @@
+[
+	{
+		"name"		: "Longsword 1",
+		"tag"		: "SKY",
+		"payload"	: {"LKO":2.75},
+		"link"		: "kerbalx.com/Skylon/Longsword-1",
+		"reuse"		: "?",
+		"build"		: 8006,
+		"sell"		: 18000,
+		"blurb"		: "Details on KerbalX page"
+	},{
+		"name"		: "Viper X-4",
+		"tag"		: "RKA",
+		"payload"	: {"LKO":1.2},
+		"link"		: "kerbalx.com/Rocket_man1234/Viper-X4",
+		"reuse"		: "?",
+		"build"		: "?",
+		"sell"		: 25216,
+		"blurb"		: "Fully reusable"
+	}, {
+		"name"		: "Copper 1a",
+		"tag"		: "TEC",
+		"payload"	: {"LKO":1.7, "LKO-P":1.4, "HKO":0.8,"HKO-P":0.3, "KTO":0.8, "KSO":0.1},
+		"link"		: "kerbalx.com/53miner53/Copper-1a",
+		"reuse"		: "3",
+		"build"		: 23515,
+		"sell"		: 10000,
+		"blurb"		: "Can dock 1t payloads in LKO"
+	}, {
+		"name"		: "Beggar 1",
+		"tag"		: "TCH",
+		"payload"	: {"LKO":2.2},
+		"link"		: "kerbalx.com/Numerlor/Beggar-1",
+		"reuse"		: 2,
+		"build"		: 9518,
+		"sell"		: 16001,
+		"blurb"		: ""
+	}, {
+		"name"		: "Methone",
+		"tag"		: "TSG",
+		"payload"	: {"LKO":0.85},
+		"link"		: "kerbalx.com/TSGaerospace/TSG-Methone",
+		"reuse"		: 0,
+		"build"		: 8684,
+		"sell"		: "8450",
+		"blurb"		: "Science!"
+	}, {
+		"name"		: "Arrhenius",
+		"tag"		: "KCF",
+		"payload"	: {"LKO":1.4},
+		"link"		: "kerbalx.com/qzgy/Arrhenius-LV",
+		"reuse"		: 2,
+		"build"		: 15378,
+		"sell"		: 15300,
+		"blurb"		: "?"
+	}, {
+		"name"		: "Valkyrie 1",
+		"tag"		: "STI",
+		"payload"	: {"LKO":1.9},
+		"link"		: "kerbalx.com/SpaceTekIndustries/Valkyrie-1",
+		"reuse"		: "?",
+		"build"		: 15378,
+		"sell"		: 16500,
+		"blurb"		: "?"
+	},{
+		"name"		: "French Fry 1",
+		"tag"		: "SBI",
+		"payload"	: {"LKO" : 2, "aLKO" : 1.5},
+		"link"		: "drive.google.com/open?id=0B15BBJhJkCp8bXNMRC1RRlFIUms",
+		"reuse"		: 3,
+		"build"		: 15642,
+		"sell"		: 25000,
+		"blurb"		: "Needs to be painted"
+	},{
+		"name"		: "Spatha I",
+		"tag"		: "ADS",
+		"payload"	: {"LKO":2},
+		"link"		: "kerbalx.com/Dman1791/Spatha-I",
+		"reuse"		: 3,
+		"build"		: 16676,
+		"sell"		: 10000,
+		"Blurb"		: "..."
+	}
+]
+
+

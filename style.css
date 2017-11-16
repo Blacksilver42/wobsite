@@ -1,0 +1,98 @@
+/* ==============================================
+ * MAIN
+ */
+
+
+
+#main {
+	padding: 5px;
+}
+
+
+
+/* ==============================================
+ * CONTACT
+ */
+
+
+
+#contact h3 {
+	margin-top: 5px;
+}
+
+#contact table tr td:first-child{
+	border-right: 1px solid lightgrey;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#contact table tr td:nth-child(2){
+	padding-left: 5px;
+}
+
+
+#contact #se-links {
+	color: grey;
+}
+
+#contact #se-links a {
+	color: grey;
+	text-decoration: underline;
+	font-size: 0.75em;
+}
+
+
+/* ==============================================
+ * CREDITS
+ */
+
+
+
+#credits th {
+	border-right: 1px solid gray;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#credits td {
+	padding-left: 5px;
+}
+
+
+
+/* ==============================================
+ * AD
+ */
+
+
+
+#ad {
+	border: 1px solid #e8bf28;
+	margin: 1em;
+	margin-top: 3em;
+	display: inline-block;
+	padding: 5px;
+}
+
+#ad h4 {
+	text-align: center;
+}
+
+
+
+/* ==============================================
+ * etc
+ */
+
+#cc {
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+#cc a {
+	margin-right: 1em;
+}
+
+
+

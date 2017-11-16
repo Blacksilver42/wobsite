@@ -1,0 +1,9 @@
+#witty-hint {
+	font-style: italic;
+	padding: 5px 2px;
+	margin: 2px auto;
+	border-bottom: 2px solid #e8bf28;
+	max-width: 75%;
+	width: max-content;
+	text-align: center;
+}
