@@ -58,13 +58,13 @@ table {
 }
 
 
-a {
+a, .pretend-link {
 	/* No underline, light blue */
 	text-decoration: none;
 	color: #0275d8;
 }
 
-a:hover {
+a:hover , .pretend-link:hover {
 	/* Underline, darker blue */
 	text-decoration: underline;
 	color: #01447e;
@@ -129,4 +129,14 @@ a.ninja.sys {
 
 .hideme {
 	display: none;
+}
+
+.single-quoted::before {
+	content: "'";
+	font-family: Arial;
+}
+
+.single-quoted::after {
+	content: "'";
+	font-family: Arial;
 }
