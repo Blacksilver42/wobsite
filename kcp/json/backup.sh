@@ -1,9 +1,8 @@
 date=`date '+%s'`
 
-echo "Backing up under bkup/$date/"
+echo "Backing up under bkup/$date.tar"
 
 
-dir="/var/www/html/kcp/json/bkup/$date/"
-mkdir $dir
+dir="/var/www/html/kcp/json/bkup/$date.tar"
 
-cp /var/www/html/kcp/json/*.json $dir
+tar -c /var/www/html/kcp/json/*.json -f $dir

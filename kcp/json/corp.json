@@ -226,7 +226,30 @@
       "users": [
         "Dman1791"
       ],
-      "funds": 416620
+      "funds": 416620.0
+    },
+    {
+      "name": "Soviet Polshka",
+      "users": [
+        "Sigor"
+      ],
+      "funds": 500000.0
+    },
+    {
+      "name": "Polshka",
+      "users": [
+        "Sigor"
+      ],
+      "funds": 500000.0
+    },
+    {
+      "tag": "SOV",
+      "name": "Soviets",
+      "users": [
+        "Sigor",
+        "Sigor"
+      ],
+      "funds": 500000.0
     }
   ]
 }
