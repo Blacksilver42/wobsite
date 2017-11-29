@@ -35,6 +35,9 @@
 <?php include '/var/www/html/kcp/top/top.php' ?>
 
 <div id="main">
+	
+	<a href="signup.html">SIGN ME UP, SCOTTY</a>
+
 	<div class="section" id="rocketdev">
 		<h3>Rocket development</h3>
 

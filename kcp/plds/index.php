@@ -47,10 +47,6 @@
 <br>
 <br>
 
-Json dump 
-	<pre id="jsondump">
-	</pre>
-
 </div>
 </body>
 </html>
