@@ -8,8 +8,7 @@
 	
 	<script>
 		var _bftn_options = {
-			theme: 'slow',
-			always_show_widget: true
+			theme: 'countdown'
 		}
 	</script>
 	<script src="https://widget.battleforthenet.com/widget.js" async></script>
@@ -101,47 +100,13 @@
 			<li><a href="/projects">Projects</a></li>
 			<li><a href="/blag">Blag</a></li>
 			<li><a href="/science">SCIENCE</a></li>
+			<li><a href="/ssb">Solving stratzenblitz</a></li>
 		</ul>
 	</div>
 	
 	
 	
-	<div id="contact" class="type1">
-		<h3>Aliases</h3>
-		<table>
-			<tr>
-				<td>Email</td>
-				<td><a href="mailto:blacksilverck35@gmail.com">blacksilverck35@gmail.com</a></td>
-			</tr><tr>
-				<td>KSP forum</td>
-				<td><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/90378-icantmakemodels/">icantmakemodels</a></td>
-			</tr><tr>
-				<td>Factorio forum</td>
-				<td><a href="https://forums.factorio.com/memberlist.php?mode=viewprofile&u=40554">Blacksilver</a></td>
-			</tr><tr>
-				<td>Stack exchange</td>
-				<td><a href="https://stackexchange.com/users/3235552/blacksilver">Blacksilver</a> <span id="se-links">
-				   (<a href="https://stackoverflow.com/users/2729876/blacksilver">SO</a> &bull; 
-					<a href="https://unix.stackexchange.com/users/215854/blacksilver">UL</a> &bull; 
-					<a href="https://serverfault.com/users/408022/blacksilver">SF</a>)</span>
-				</td>
-			</tr><tr>
-				<td>Steam</td>
-				<td><a href="http://steamcommunity.com/id/TEST_USERNAME_PLEASE_IGNORE">Mistake not...</a><span style="color: grey"> (Changes frequently)</span></td>
-			</tr><tr>
-				<td>IRC</td>
-				<td title="Often found lurking in irc.esper.net #kspofficial">Blacksilver</td>
-			</tr>
-		</table>
-
-		<!-- template
-			<tr>
-				<td>Site</td>
-				<td><a href="link">username</a></td>
-			</tr>
-		-->
-	</div>
-
+<?php include "/var/www/html/contact/contact.html" ?>
 
 
 	<div id="credits" class="type1">
