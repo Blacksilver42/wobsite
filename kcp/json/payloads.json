@@ -19,7 +19,7 @@
 	}, {
 		"name"	:	"Carrot relay 1",
 		"tag"	:	"BMS",
-		"mass"	:	"?",
+		"mass"	:	0.51,
 		"cost"	:	"?",
 		"link"	:	"https://cdn.discordapp.com/attachments/355744361927016448/370612810088185858/Mrcarrots_Relay_1.craft"
 	}
