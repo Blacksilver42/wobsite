@@ -13,6 +13,7 @@
 		"/kcp/corp/",
 		"/kcp/lvs/",
 		"/kcp/plds/",
+		"/kcp/service/",
 		"/kcp/math/",
 		"/kcp/json/"
 	];
@@ -25,6 +26,7 @@
 		"Manifest",
 		"Corp",
 		"LVs",
+		"Service",
 		"Payloads",
 		"Math",
 		"JSON"
