@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>#INTERNETEMERGENCY | Blacksilver's website</title>
+	<title>#INTERNETEMERGENCY | Blacksilver's wobsite</title>
 	
 	
 	<!-- ===== BTFN ===== -->
@@ -34,11 +34,12 @@
 	
 	
 	<!-- ===== SCRIPTS ==== -->
-
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	<script src="/git/website-scripts/wittyhint.js"></script>
 	<script src="/git/website-scripts/hideico.js"></script>
 	<script src="/git/website-scripts/misc.js"></script>
+	<script src="/THESYSTEM.js"></script>
 	
 <!--
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -51,7 +52,7 @@
 -->
 </head>
 <body>
-<p class="hideme">
+<p class="hideme" style="color: red; font-weight: bold;">
 	If you're reading this, your browser failed to load the CSS. Try refreshing.
 	<br>
 	If you've tried that, try ctrl+F5.
@@ -81,7 +82,7 @@
 	</div>
 </div>
 
-<!-- ===========================================================[  END TOP  |  BEGIN MAIN  ]=========================================================== -->
+<!-- END TOP / BEGIN MAIN ===================================================== -->
 
 
 
@@ -96,11 +97,11 @@
 		<h2>Links</h2>
 		<p>More below</p>
 		<ul>
-			<li><a href="/kcp">Kerbal Capitalism Program</a></li>
-			<li><a href="/projects">Projects</a></li>
-			<li><a href="/blag">Blag</a></li>
-			<li><a href="/science">SCIENCE</a></li>
-			<li><a href="/ssb">Solving stratzenblitz</a></li>
+			<li><a href="/kcp"		>Kerbal Capitalism Program</a></li>
+			<li><a href="/projects"	>Projects</a></li>
+			<li><a href="/blag"		>Blag</a></li>
+			<li><a href="/science"	>SCIENCE</a></li>
+			<li><a href="/ssb"		>Solving stratzenblitz</a></li>
 		</ul>
 	</div>
 	
@@ -133,7 +134,13 @@
 	</p>
 
 	<p>
-		Want to send me money? Umm... <a href="https://www.paypal.me/Blacksilver42">Okay, I'm not complaining.</a>
+		Want to send me money? Umm...
+		<a
+		  href="https://www.paypal.me/Blacksilver42"
+		  rel="nofollow"
+		  title="Thanks! <3">
+			Okay, I'm not complaining.
+		</a>
 	</p>
 
 	
