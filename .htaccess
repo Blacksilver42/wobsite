@@ -1,2 +1,5 @@
 Redirect 301 /err_pages/ /err/
+Redirect 301 /ssb http://ssb.blacksilver.xyz
+Redirect /THESYSTEM13 /THESYSTEM/13
+
 deny from 178.79.138.22
