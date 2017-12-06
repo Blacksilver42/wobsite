@@ -119,7 +119,7 @@ a.ninja.sys {
 .code {
 	font-family: Courier, monospace;
 	border: 1px solid grey;
-	background: lightgrey;
+	background: #eee;
 	padding: 3px;
 	border-radius: 3px;
 	clear: both;
