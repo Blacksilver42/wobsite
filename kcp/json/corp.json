@@ -16,7 +16,7 @@
       "users": [
         "53miner53"
       ],
-      "funds": 327304.0,
+      "funds": 1246834.0,
       "color": "#0099FF"
     },
     {
@@ -229,24 +229,9 @@
       "funds": 398277.0
     },
     {
-      "name": "Soviet Polshka",
-      "users": [
-        "Sigor"
-      ],
-      "funds": 500000.0
-    },
-    {
-      "name": "Polshka",
-      "users": [
-        "Sigor"
-      ],
-      "funds": 500000.0
-    },
-    {
       "tag": "SOV",
       "name": "Soviets",
       "users": [
-        "Sigor",
         "Sigor"
       ],
       "funds": 500000.0

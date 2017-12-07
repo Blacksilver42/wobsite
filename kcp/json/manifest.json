@@ -1,5 +1,20 @@
 {
-	"next" : {
+	"next" : null,
+
+	"future" : [
+	],
+
+	"past" : [
+	  {
+		"lifter"	:	2,
+		"payload"	:	"Jeb",
+		"orbit"		:	{
+			"name"	:	"GEO",
+			"ap"	:	"100km",
+			"pe"	:	"100km",
+			"inc"	:	0
+		}
+	  },{
 		"lifter"	:	4, 
 		"payload"	:	2,
 		"amt"		:	1,
@@ -9,44 +24,7 @@
 			"pe"	:	"?",
 			"inc"	:	"?"
 		}
-	},
-
-	"future" : [
-	  {
-		"lifter"	:	4,
-		"payload"	:	2,
-		"amt"		:	1,
-		"orbit"		:	{
-			"name"	:	"GTO",
-			"ap"	:	"?",
-			"pe"	:	"?",
-			"inc"	:	"?"
-		}
 	  },{
-		"lifter"	:	4,
-		"payload"	:	2,
-		"amt"		:	1,
-		"orbit"		:	{
-			"name"	:	"GTO",
-			"ap"	:	"?",
-			"pe"	:	"?",
-			"inc"	:	"?"
-		}
-	  },{
-		"lifter"	:	2,
-		"payload"	:	"?",
-		"amt" 		:	1,
-		"orbit"		:	{
-			"name"	:	"???",
-			"ap"	:	"?",
-			"pe"	:	"?",
-			"inc"	:	"?"
-		}
-	  }
-	],
-
-	"past" : [
-	  {
 		"lifter"	:	2,
 		"payload"	:	"?",
 		"amt"		:	1,

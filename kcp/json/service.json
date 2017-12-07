@@ -1,0 +1,16 @@
+{"service" : [
+	{
+		"name": "Example",
+		"tag": "EXA",
+		"link": "#",
+		"cost":	10000,
+		"status": 1
+	},
+	{
+		"name": "Example2",
+		"tag": "EXA",
+		"cost": "Message @someUser",
+		"link": "#",
+		"status": 2
+	}
+]}
