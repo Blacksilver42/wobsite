@@ -1,7 +1,6 @@
 <!-- From /kcp/top/top.php -->
-
+<div id="top">
 <?php 
-
 	$page = $_SERVER['REQUEST_URI'];
 	$urls = [
 		"/kcp/",
@@ -11,9 +10,7 @@
 		"/kcp/bot/",
 		"/kcp/manifest/",
 		"/kcp/corp/",
-		"/kcp/lvs/",
-		"/kcp/plds/",
-		"/kcp/service/",
+		"#vehicles",
 		"/kcp/math/",
 		"/kcp/json/"
 	];
@@ -25,18 +22,18 @@
 		"Bot",
 		"Manifest",
 		"Corp",
-		"LVs",
-		"Service",
-		"Payloads",
+		"Vehicles&nbsp;&darr;",
 		"Math",
 		"JSON"
 	];
-?>
+
+	$vehicles = [
+		"/kcp/lvs/",
+		"/kcp/plds/",
+		"/kcp/service/"
+	];
 
 
-<div id="top">
-
-<?php 
 	if (isMobile()){
 		echo "<h1><a href=\"/kcp\" class=\"ninja\">KCP</a> &raquo; $pagename</h1>";
 		echo "<p class=\"hamburger\">&#9776;</p>";
@@ -47,7 +44,7 @@
 	}
 ?>
 
-		<div id="nav">
+	<div id="nav">
 
 
 <!-- Using sorcery, I generate the table with php: -->

@@ -28,6 +28,7 @@
 }
 
 #nav a {
+	position: relative;
     display: table-cell;
     text-align: center;
     padding: 14px 16px;
@@ -60,3 +61,32 @@
 	font-weight: bolder;
 }
 
+
+/************************************************
+                     #vmenu
+ ************************************************/
+
+
+
+#vmenu {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+}
+
+#vmenu a {
+	display: block;
+	width: 100%;
+	padding: 10px 2px;
+	border-right: none;
+	position: relative;
+	top: 14px;
+	right: 2px;
+}
+
+#vmenu a:last-child {
+	border-bottom: 2px solid #e8bf28;
+}
