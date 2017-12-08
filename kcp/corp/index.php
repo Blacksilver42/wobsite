@@ -38,6 +38,8 @@ $pagename = "Corp index";
 include "/var/www/html/kcp/top/top.php";
 ?>
 
+<?php if($_GET["corp"] == ""){ ?>
+
 <div id="main">
 
 <p>If anything is wrong, try <button title="xkcd.com/1854" onclick="reload()">reloading your cache</button>, then send a Discord PM.</p>
@@ -64,5 +66,14 @@ include "/var/www/html/kcp/top/top.php";
 <br>
 
 </div>
+
+<?php } else {
+	shell_exec("corppage $_GET[corp]");
+	echo("GOV");
+}
+?>
+
+
+
 </body>
 </html>
