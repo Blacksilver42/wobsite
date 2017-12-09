@@ -1,0 +1,25 @@
+td {
+	padding: 5px;
+}
+
+tr:nth-child(2n+3){
+	background: #ddd;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+.corptag {
+	font-family: serif;
+	font-weight: bold;
+}
+
+.corptag::before{
+	content: "[";
+}
+
+.corptag::after{
+	content: "]";
+}
+

@@ -6,28 +6,15 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	<script src="/git/website-scripts/thousep2.js"></script>
-	<script src="/git/kcp-scripts/corptablegen.js"></script>
+	<script src="/git/kcp-scripts/corp.js"></script>
 	
 	<?php include '/var/www/html/kcp/top/head.php' ?>
 	
 	<title>KCP &raquo; Corp index</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 <style>
-	#data tr td {
-		border-right: 1px solid black;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
 	
-	#data #header td {
-		border-bottom: 2px solid black;
-		font-weight: bold;
-	}
-
-	tr:nth-child(even){
-		background: lightgrey;
-	}
 </style>
 
 </head>
@@ -46,10 +33,10 @@ include "/var/www/html/kcp/top/top.php";
 
 <table id="data">
 	<tr id="header">
-		<td>Tag</td>
-		<td>Name</td>
-		<td>Users</td>
-		<td>Funds</td>
+		<th>Tag</th>
+		<th>Name</th>
+		<th>Users</th>
+		<th>Funds</th>
 	</tr>
 	
 	<!-- Data inserted here by JQuery -->
