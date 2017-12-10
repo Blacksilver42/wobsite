@@ -1,3 +1,26 @@
+#data ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#data ul li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#data ul li::before {
+	content: "@";
+	font-weight: lighter;
+	color: #ccc;
+}
+
+#data tr:nth-child(2n+3) ul li::before {
+	color: #fff;
+}
+
+
+
 td {
 	padding: 5px;
 }
@@ -13,6 +36,7 @@ th {
 .corptag {
 	font-family: serif;
 	font-weight: bold;
+	text-align: center;
 }
 
 .corptag::before{
@@ -23,3 +47,6 @@ th {
 	content: "]";
 }
 
+.unknown {
+	color: grey;
+}
