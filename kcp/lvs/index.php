@@ -7,14 +7,14 @@
 
 	<title>KCP LV Index</title>
 	
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="/kcp/crafts.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 
 	<?php include '/var/www/html/kcp/top/head.php' ?>
 	
 	<script src="/git/website-scripts/thousep2.js"></script>
 	<script src="/git/kcp-scripts/KSP_extractDomain.js"></script>
-	<script src="/git/kcp-scripts/lvtablegen.js"></script>
+	<script src="/git/kcp-scripts/lv.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 </head>
@@ -26,8 +26,8 @@ include '/var/www/html/kcp/top/top.php'
 ?>
 
 <div id="main">
-	<table id="lv">
-		<tr id = "header">
+	<table id="data">
+		<tr>
 			<th>Tag</th>
 			<th>Name</th>
 			<th>Sell price</th>
@@ -37,6 +37,7 @@ include '/var/www/html/kcp/top/top.php'
 			<th>Link</th>
 			<th>Re-use</th>
 		</tr>
+		<!-- Inserted here by jQuery -->
 	</table>
 
 	<p>
