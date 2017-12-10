@@ -4,7 +4,7 @@
 <?php include "/var/www/html/mobile.php" ?>
 
 <head>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="/kcp/crafts.css" />
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 		<script src="/git/kcp-scripts/plds.js"></script> 
@@ -14,13 +14,6 @@
 		<title>KCP &raquo; Payload manifest</title>
 		
 		<?php include '/var/www/html/kcp/top/head.php' ?>
-		
-	<script>
-		$.getJSON("/kcp/json/payloads.json", function(J){
-			console.log(J);
-			$("#jsondump").html(JSON.stringify(J));
-		})
-	</script>
 </head>
 
 <body>
