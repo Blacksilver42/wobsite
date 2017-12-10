@@ -29,8 +29,6 @@
 	include '/var/www/html/kcp/top/top.php'
 ?>
 
-<h1>WIP</h1>
-
 <div id="main">
 
 	<table id="data">
