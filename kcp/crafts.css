@@ -34,7 +34,8 @@ th {
 }
 
 .corptag {
-	font-family: serif;
+	font-family: monospace;
+	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -45,6 +46,11 @@ th {
 
 .corptag::after{
 	content: "]";
+}
+
+.corptag::before, .corptag::after{
+	font-family: sans-serif;
+	padding: 0px 2px;
 }
 
 .unknown {
