@@ -4,12 +4,13 @@
 		"tag"	:	"GOV",
 		"mass"	:	0.5,
 		"cost"	:	3770,
-		"link"	:	"http://kerbalx.com/Blacksilver/Geostar-I"
+		"link"	:	"https://kerbalx.com/Blacksilver/Geostar-I"
 	}, {
 		"name"	:	"Echostar-1",
 		"tag"	:	"SKY",
 		"mass"	:	0.34,
-		"cost"	:	3122
+		"cost"	:	3122,
+		"link"	:	"https://kerbalx.com/Skylon/Echostar-1"
 	}, {
 		"name"	:	"Sabot 1",
 		"tag"	:	"SBI",
@@ -22,5 +23,11 @@
 		"mass"	:	0.51,
 		"cost"	:	8000,
 		"link"	:	"https://cdn.discordapp.com/attachments/355744361927016448/370612810088185858/Mrcarrots_Relay_1.craft"
+	}, {
+		"name"	:	"Skynet",
+		"tag"	:	"SKY",
+		"mass"	:	1.24,
+		"cost"	:	6989,
+		"link"	:	"https://kerbalx.com/Skylon/Skynet"
 	}
 ]
