@@ -56,3 +56,9 @@ th {
 .unknown {
 	color: grey;
 }
+
+.tons::after {
+	content: "t";
+	font-size: 0.75em;
+	margin-left: 2px;
+}
