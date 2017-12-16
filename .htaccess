@@ -3,3 +3,16 @@ Redirect 301 /ssb http://ssb.blacksilver.xyz
 Redirect /THESYSTEM13 /THESYSTEM/13
 
 deny from 178.79.138.22
+
+
+# BFTN
+
+#Redirect 302 /attacks/ /
+#Redirect 302 /blag/ /
+#Redirect 302 /ciscord/ /
+#Redirect 302 /contact/ /
+#Redirect 302 /kcp/ /
+#Redirect 302 /fortune/ /
+#Redirect 302 /futura/ /
+#Redirect 302 /science/ /
+#Redirect 302 /science.bleeding/ /
