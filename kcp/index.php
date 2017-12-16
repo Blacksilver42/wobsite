@@ -61,7 +61,7 @@
 			<tr>
 				<td>G2</td>
 				<td>30m</td>
-				<td>1.25m</td>
+				<td>1.875m</td>
 			</tr>
 			<tr>
 				<td>G3</td>
