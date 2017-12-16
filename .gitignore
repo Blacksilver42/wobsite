@@ -2,6 +2,9 @@ THESYSTEM/
 git/*
 science/
 science.bleeding/
-kcp/json/bkup/
-ciscord
+kcp/json/
+ciscord/
+
+
 THESYSTEM.js
+core.svg
