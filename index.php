@@ -6,14 +6,13 @@
 		body {
 			background: black;
 			text-align: center;
-			rot: 13;
 		}
 		#box {
 			border: 3px solid red;
 			display: inline-block;
 			color: red;
 			padding: 10px;
-			font-family: Futura,  monospace;
+			font-family: "Courier new", "Lucida console", "Consolas", monospace;
 			font-size: 2em;
 			font-weight: bold;
 			position: absolute;
@@ -21,11 +20,9 @@
 			  left: 50%;
 			min-height: 1.25em;
 			min-width: 1em;
-			max-width: 40%;
 			transform: translate(-50%, -40%);
 		}
 		#actual {
-			color: grey;
 			position: absolute;
 			bottom: 5px;
 			text-align: center;
@@ -33,14 +30,15 @@
 			font-size: 8px;
 		}
 		#actual a {
-			color: grey;
+			color: #222;
 		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	<script>
 		var n=0,p,I,V = [
 			"#SAVENETNEUTRALITY",
-			"#STOPTHEFCC"
+			"#STOPTHEFCC",
+			"BATTLEFORTHENET.COM"
 		];
 		function W(s) {
 			var S=s.split(""),i=0,tmp="";
@@ -58,7 +56,7 @@
 			W("BREAK THE NET");
 			setInterval(function(){
 				p.html("");
-				n++; n = n%2;
+				n++; n = n%V.length;
 				clearInterval(I);
 				W(V[n]);
 			}, 7000);
