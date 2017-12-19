@@ -17,8 +17,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	
 		<?php include '/var/www/html/kcp/top/head.php' ?>
-		
-		
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -58,7 +56,7 @@
 				<td>20m</td>
 				<td>1.25m</td>
 			</tr>
-			<tr>
+			<tr class="current">
 				<td>G2</td>
 				<td>30m</td>
 				<td>1.875m</td>

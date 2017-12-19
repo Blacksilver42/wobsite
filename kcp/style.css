@@ -65,3 +65,12 @@ td, th {
 #main tr *:last-child {
 	border-right: none;
 }
+
+
+/* ==============================================
+ * #rocketdev
+ */
+
+#rocketdev tr.current {
+	font-weight: bold;
+}
